@@ -1,3 +1,4 @@
+import { GeneratedContent } from "./components/GeneratedContent";
 import { Button } from "@/view/components/ui/Button";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
@@ -16,7 +17,9 @@ export function Dashboard() {
         </div>
       </header>
 
-      <main className="mt-11 flex-1 p-6 flex gap-6">Main</main>
+      <main className="mt-11 flex-1 p-6 flex gap-6">
+        <GeneratedContent />
+      </main>
     </div>
   );
 }
