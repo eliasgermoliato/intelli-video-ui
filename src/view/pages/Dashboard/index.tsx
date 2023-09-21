@@ -1,4 +1,5 @@
 import { GeneratedContent } from "./components/GeneratedContent";
+import { AsideContent } from "./components/AsideContent";
 import { Button } from "@/view/components/ui/Button";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
@@ -19,6 +20,7 @@ export function Dashboard() {
 
       <main className="mt-11 flex-1 p-6 flex gap-6">
         <GeneratedContent />
+        <AsideContent />
       </main>
     </div>
   );
