@@ -1,3 +1,5 @@
+import { Dashboard } from "./view/pages/Dashboard";
+
 export function App() {
-  return <h1>Hello world</h1>;
+  return <Dashboard />;
 }
